@@ -1,0 +1,49 @@
+/* Base setup */
+/* General body styling */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #e6ecf0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Page title */
+h1 {
+    text-align: center;
+    color: #1da1f2;
+    font-size: 32px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+/* Post container */
+.post {
+    width: 500px;
+    margin: 20px auto;
+    padding: 15px 20px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.2s ease;
+    border-left: 4px solid #1da1f2;
+}
+
+/* Hover effect on post */
+.post:hover {
+    background-color: #f5f8fa;
+}
+
+/* Username style */
+.user {
+    margin: 0;
+    color: #14171a;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Content style */
+.content {
+    margin: 8px 0 0 0;
+    color: #657786;
+    font-size: 16px;
+}

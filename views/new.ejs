@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create new post</title>
+</head>
+<body style="font-family: Arial, sans-serif; background-color: #f0f2f5; padding: 50px;">
+    <form method="post" action="/post" style="max-width: 500px; margin: auto; background-color: white; padding: 20px; border-radius: 10px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);">
+        <h2 style="text-align: center; color: #1da1f2;">Create a Post</h2>
+
+        <input
+            name="username"
+            placeholder="Username"
+            type="text"
+            required
+            style="width: 100%; padding: 10px; margin-top: 10px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 6px; font-size: 16px;"
+        />
+
+        <textarea
+            name="content"
+            placeholder="What's on your mind?"
+            required
+            rows="5"
+            style="width: 100%; padding: 10px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 6px; font-size: 16px; resize: none;"
+        ></textarea>
+
+        <button
+            type="submit"
+            style="width: 100%; padding: 12px; background-color: #1da1f2; color: white; font-size: 16px; border: none; border-radius: 6px; cursor: pointer;"
+        >
+            Submit
+        </button>
+    </form>
+</body>
+
+</html>
