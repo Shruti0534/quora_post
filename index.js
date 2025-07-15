@@ -44,7 +44,7 @@ app.post("/post",(req,res)=>{
    let {username,content}=req.body;
    let id=uuidv4();
    posts.push({ id,username, content});
-   res.redirect("/post");
+   res.redirect("/");
    
 })
 app.get("/post/:id",(req,res)=>{
